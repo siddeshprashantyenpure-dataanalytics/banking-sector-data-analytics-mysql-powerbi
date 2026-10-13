@@ -1,0 +1,331 @@
+BANKING SECTOR - MYSQL + POWER BI PRACTICE QUESTION BANK
+============================================================
+
+A. Basic SELECT / WHERE
+-----------------------
+1. Display all customers.
+2. Display customer_id, first_name, last_name and annual_income.
+3. Find customers from Maharashtra.
+4. Find customers whose annual income is greater than 100000.
+5. Find customers aged between 25 and 40.
+6. Find all active accounts.
+7. Display only Savings accounts.
+8. Find loans with loan_amount greater than 1,000,000.
+9. Find successful transactions.
+10. Find failed transactions.
+11. Display customers from Pune, Mumbai and Bengaluru.
+12. Find accounts whose balance is between 50,000 and 2,00,000.
+13. Find customers whose occupation is either Salaried or Business.
+14. Find customers whose first name starts with 'A'.
+15. Find customers whose last name ends with 'a'.
+16. Find transactions performed through Mobile App.
+17. Find credit transactions above 50,000.
+18. Find debit transactions below 1,000.
+19. Find loans with interest rate above 12%.
+20. Find cards that are currently Active.
+
+B. DISTINCT / ORDER BY / LIMIT
+------------------------------
+21. List distinct customer cities.
+22. List distinct transaction channels.
+23. List distinct loan types.
+24. Sort customers by annual income descending.
+25. Sort accounts by current balance descending.
+26. Display the 10 highest-value transactions.
+27. Display the 10 customers with highest annual income.
+28. Display the 5 largest loans.
+29. Display branches alphabetically.
+30. Display the 10 highest outstanding loan amounts.
+
+C. Aggregations
+---------------
+31. Count total customers.
+32. Count customers by gender.
+33. Find average annual income.
+34. Find minimum and maximum account balance.
+35. Find total transaction amount.
+36. Find average transaction amount.
+37. Find total loan amount.
+38. Find total outstanding loan amount.
+39. Find average loan interest rate.
+40. Find total salary paid to employees.
+41. Count accounts by account type.
+42. Count transactions by transaction type.
+43. Count loans by loan type.
+44. Count customers by customer segment.
+45. Find total card spending.
+46. Find average card transaction amount.
+47. Find total principal paid through loan payments.
+48. Find total interest collected through loan payments.
+
+D. GROUP BY / HAVING
+--------------------
+49. Find total account balance by account type.
+50. Find total transaction amount by channel.
+51. Find transaction count by month.
+52. Find total loan amount by loan type.
+53. Find total outstanding amount by loan type.
+54. Find average annual income by city.
+55. Find customer count by state.
+56. Find average salary by job title.
+57. Find employee count by branch.
+58. Find branches having more than 4 employees.
+59. Find cities having more than 40 customers.
+60. Find loan types whose average loan amount exceeds 1,000,000.
+61. Find transaction channels with total transaction value above 5,000,000.
+62. Find account types having average balance above 100,000.
+
+E. String Functions
+-------------------
+63. Create a full_name using CONCAT.
+64. Convert customer names to uppercase.
+65. Convert customer names to lowercase.
+66. Find the length of each customer's first name.
+67. Extract the first 3 characters of branch names.
+68. Find customers whose names contain 'an'.
+69. Concatenate city and state into one location field.
+70. Extract the first character of employee last names.
+71. Create an employee display name with employee_id.
+72. Replace spaces in branch names with hyphens.
+73. Find the position of 'a' in customer first names.
+
+F. Date Functions
+-----------------
+74. Find customers who joined after 2022-01-01.
+75. Extract year from transaction_datetime.
+76. Extract month from transaction_datetime.
+77. Find monthly transaction totals.
+78. Find yearly transaction totals.
+79. Find transactions performed on weekends.
+80. Find customers whose customer_since is older than 5 years.
+81. Find loans approved in 2025.
+82. Find the number of days between account opening and today.
+83. Find loan payments made in the last 12 months.
+84. Find the month with the highest transaction amount.
+85. Find the quarter-wise transaction value.
+86. Find average monthly transaction amount.
+87. Find customers' age using date_of_birth.
+88. Find employees who have worked for more than 5 years.
+89. Find card transactions by day of week.
+
+G. CASE Expressions
+-------------------
+90. Categorize customers as Low, Medium and High income.
+91. Categorize account balances as Low, Medium and High.
+92. Categorize loans by size: Small, Medium, Large.
+93. Categorize transactions as Small/Medium/Large based on amount.
+94. Create a salary band for employees.
+95. Create a risk label from loan risk_category.
+96. Identify customers as Young Adult, Adult or Senior based on age.
+97. Create a channel category: Digital vs Physical.
+
+H. Joins
+--------
+98. Display customers with their account details.
+99. Display customers with their branch names.
+100. Display accounts with customer names.
+101. Display transactions with customer names.
+102. Display loans with customer names.
+103. Display loans with branch names.
+104. Display employees with branch names.
+105. Display all customers even if they have no accounts.
+106. Display all branches and their employees.
+107. Find customers who have both an account and a loan.
+108. Find customers who have an account but no loan.
+109. Find customers who have a loan but no card.
+110. Join loans with loan payments.
+111. Join cards with card transactions.
+112. SELF JOIN: Display employees with their manager names.
+113. SELF JOIN: Find employees who report to a Branch Manager.
+114. Find branches with no loans.
+115. Find branches with no customers.
+116. Find customers with multiple accounts.
+117. Find customers with multiple cards.
+
+I. Subqueries
+-------------
+118. Find customers whose income is above average.
+119. Find accounts with balance above average account balance.
+120. Find transactions greater than average transaction amount.
+121. Find loans above average loan amount.
+122. Find customers who have the highest annual income.
+123. Find the branch with the highest number of customers.
+124. Find employees earning above average salary.
+125. Find customers whose account balance is above their city's average.
+126. Find the second-highest transaction amount.
+127. Find the second-highest salary.
+128. Find loans with outstanding amount above average outstanding amount.
+129. Find customers whose total transaction value is above average customer transaction value.
+
+J. EXISTS / NOT EXISTS
+----------------------
+130. Find customers who have at least one account.
+131. Find customers who have at least one loan.
+132. Find customers who have at least one successful transaction.
+133. Find customers who have both an account and a loan using EXISTS.
+134. Find customers who have an account but no loan using NOT EXISTS.
+135. Find branches having at least one loan.
+136. Find employees working in branches that have customers.
+137. Find customers who have a card transaction.
+138. Find loans that have at least one payment.
+139. Find accounts that have no transactions.
+140. Find customers who have no card.
+141. Find branches with no employees.
+
+K. CTEs
+-------
+142. Use a CTE to calculate total transaction amount per customer.
+143. Use a CTE to find the top 10 customers by transaction value.
+144. Use multiple CTEs to compare deposits and withdrawals.
+145. Use a CTE to calculate monthly transaction totals.
+146. Use a CTE to calculate average monthly transaction amount.
+147. Use a CTE to find customers whose loan amount exceeds their annual income.
+148. Use multiple CTEs to calculate customer income, account balance and loan exposure.
+149. Use a CTE to identify customers with both high deposits and high loans.
+150. Use a CTE to calculate branch-level KPIs.
+
+L. Window Functions
+-------------------
+151. Rank customers by annual income.
+152. Rank customers within each city by income.
+153. Rank loans within each loan type by loan amount.
+154. Use DENSE_RANK to find top customers by transaction value.
+155. Use ROW_NUMBER to find each customer's largest transaction.
+156. Use LAG to compare each month's transaction value with the previous month.
+157. Use LEAD to compare a month with the next month.
+158. Calculate month-over-month transaction growth.
+159. Calculate a running total of transactions by month.
+160. Calculate cumulative loan payments by customer.
+161. Calculate each customer's percentage contribution to total transaction value.
+162. Calculate branch transaction ranking.
+163. Find the top 3 customers in every city.
+164. Find the top 3 loans in each loan type.
+165. Calculate a 3-month moving average of transaction value.
+166. Calculate a customer's previous transaction amount using LAG.
+167. Find customers whose transaction amount increased compared with their previous transaction.
+168. Use NTILE(4) to divide customers into four income groups.
+
+M. Advanced SQL / Business Logic
+--------------------------------
+169. Find duplicate customer records based on name + date of birth.
+170. Find accounts with no transactions.
+171. Find customers with more than one account type.
+172. Find customers with both credit and debit transactions.
+173. Find customers whose total deposits exceed total withdrawals.
+174. Find customers whose total loan outstanding is greater than their account balance.
+175. Find the most active customer by transaction count.
+176. Find the most active branch by transaction count.
+177. Find the month with the highest card spending.
+178. Find customers with consecutive transaction months.
+179. Find the longest gap between two transactions for each customer.
+180. Find each customer's first transaction.
+181. Find each customer's latest transaction.
+182. Find dormant accounts with no transaction activity.
+183. Find customers who use multiple transaction channels.
+184. Find customers who use both branch and digital channels.
+185. Find customers whose loan payments were late more than once.
+186. Find branches where average customer income is above the overall average.
+
+N. Cross Join / Set Logic
+-------------------------
+187. Create every combination of account type and customer segment using CROSS JOIN.
+188. Generate a branch × loan type matrix using CROSS JOIN.
+189. Use UNION to combine customers from two selected states.
+190. Use UNION ALL to combine two transaction subsets.
+191. Use INTERSECT-style logic where supported to find common customers between accounts and loans.
+192. Use NOT EXISTS / EXCEPT-style logic to find customers with accounts but no loans.
+
+O. Views / Procedures / Indexes
+-------------------------------
+193. Create a view showing customer + account information.
+194. Create a view showing customer transaction summary.
+195. Create a view showing branch performance.
+196. Create a view showing loan portfolio summary.
+197. Create a view showing customer financial profile.
+198. Create a procedure to return transactions for a given customer.
+199. Create a procedure to return loans for a given customer.
+200. Create a procedure to return transactions for a selected date range.
+201. Create a procedure that accepts a branch_id and returns branch KPIs.
+202. Create a stored function that calculates a customer's total account balance.
+203. Create a stored function that returns a customer risk category based on loan exposure.
+204. Demonstrate START TRANSACTION, COMMIT and ROLLBACK.
+205. Update an account balance and rollback the change.
+206. Insert a test transaction and rollback.
+207. Identify suitable indexes for customer_id, account_id, transaction_datetime and loan_id.
+208. Use EXPLAIN on a transaction query.
+209. Compare query performance before and after indexing.
+210. Explain why indexes can slow down INSERT/UPDATE operations.
+211. Explain normalization of these banking tables.
+
+
+Q. Banking Business Analysis
+----------------------------
+222. Calculate total deposits.
+223. Calculate total withdrawals.
+224. Calculate net cash flow = credits - debits.
+225. Calculate total loan portfolio.
+226. Calculate total outstanding loan portfolio.
+227. Calculate loan approval rate.
+228. Calculate loan rejection rate.
+229. Calculate average loan interest rate.
+230. Calculate total interest paid by customers.
+231. Calculate total card spending.
+232. Calculate digital transaction percentage.
+233. Calculate ATM transaction percentage.
+234. Calculate average account balance.
+235. Calculate customers per branch.
+236. Calculate loans per branch.
+237. Calculate average loan amount per customer.
+238. Find high-income customers with low account balances.
+239. Find customers with high loan exposure.
+240. Find customers with high transaction activity.
+241. Calculate branch-level deposit, withdrawal and loan KPIs.
+
+R. Power BI Dashboard
+---------------------
+242. Executive page: Total Customers KPI.
+243. Executive page: Total Deposits KPI.
+244. Executive page: Total Withdrawals KPI.
+245. Executive page: Total Loan Portfolio KPI.
+246. Executive page: Outstanding Loans KPI.
+247. Executive page: Total Card Spending KPI.
+
+248. Create monthly transaction trend.
+249. Create customer segment distribution.
+250. Create account type distribution.
+251. Create transaction channel distribution.
+252. Create customer analysis by city/state.
+253. Create customer income-segment analysis.
+254. Create top customers by transaction value.
+255. Create customer count by occupation.
+256. Create age-group distribution.
+257. Create credit vs debit comparison.
+258. Create transaction amount by channel.
+259. Create transaction amount by transaction type.
+260. Create success vs failed transaction analysis.
+261. Create loan amount by loan type.
+262. Create outstanding amount by loan type.
+263. Create loan status distribution.
+264. Create loan approval rate.
+265. Create average interest rate by loan type.
+266. Create risk category distribution.
+267. Create branch-wise loan portfolio.
+268. Create customer count by branch.
+269. Create account balance by branch.
+270. Create deposit vs withdrawal by branch.
+271. Create transaction count by branch.
+272. Create employee count by branch.
+273. Create total card spending.
+274. Create spending by merchant category.
+275. Create spending by card channel.
+276. Create monthly card spending.
+277. Create declined transaction percentage.
+278. Add Date, State, Branch, Customer Segment, Loan Type and Channel slicers.
+279. Create drill-through from branch to branch details.
+280. Create dynamic KPI cards.
+281. Add conditional formatting for high-risk loans.
+282. Create a decomposition tree for transaction value.
+283. Create a monthly Year > Quarter > Month drill-down.
+284. Add page navigation and a reset-filters button.
+
+#100C18
