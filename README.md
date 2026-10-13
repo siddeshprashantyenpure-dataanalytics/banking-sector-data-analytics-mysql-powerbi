@@ -29,15 +29,11 @@ This project analyzes banking operations using MySQL for data analysis and Power
 5. Organized dashboard pages to communicate business performance.
 
 ## Dashboard Pages
-
-Add screenshots and descriptions for your actual dashboard pages here.
-
 - Executive Overview
 - Customer Analysis
 - Transaction Analysis
 - Loan Analysis
 - Branch Performance
-- Card & Spending Analysis
 
 ## Key Findings
 
